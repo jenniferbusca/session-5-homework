@@ -1,0 +1,20 @@
+{
+  "name": "recipe1404",
+  "title": "Hamburger",
+  "date": "2015-09-01",
+  "description": "A Hamburger (often called a burger) is a type of sandwich in the form of  rounded bread sliced in half with its center filled with a patty which is usually ground beef, then topped with vegetables such as lettuce, tomatoes and onions.", 
+  "images": [
+    "hamburger.png",
+    "hamburger_2.jpg",
+    "hamburger_3.jpg",
+    "hamburger_4.jpg"
+  ],
+  "ingredients": [
+    "buns",
+    "beef",
+    "onions",
+    "salt",
+    "lettuce",
+    "tomato"
+  ]
+}

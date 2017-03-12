@@ -1,0 +1,19 @@
+{
+  "name": "recipe1210",
+  "title": "Guacamole",
+  "date": "2014-09-01",
+  "description": "Guacamole is definitely a staple of Mexican cuisine. Even though Guacamole is pretty simple, it can be tough to get the perfect flavor - with this authentic Mexican guacamole recipe, though, you will be an expert in no time.",
+  "images": [
+    "guacamole.png",
+    "guacamole_2.jpg",
+    "guacamole_3.jpg",
+    "guacamole_4.jpg"
+  ],
+  "ingredients": [
+    "avocado",
+    "garlic",
+    "lime",
+    "salt",
+    "jalapeno"
+  ]
+}

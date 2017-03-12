@@ -1,0 +1,21 @@
+{
+  "name": "recipe1404",
+  "title": "Pho Noodle Soup",
+  "date": "2013-09-01",
+  "description": "Delicious Vietnamese noodles.",
+  "mainImageUrl": "lasagna-1.png",
+  "images": [
+    "pho.png",
+    "pho_2.jpg",
+    "pho_3.jpg",
+    "pho_4.jpg"
+  ],
+  "ingredients": [
+    "vermicelli",
+    "beef",
+    "onions",
+    "chili pepper",
+    "garlic",
+    "stock"
+  ]
+}

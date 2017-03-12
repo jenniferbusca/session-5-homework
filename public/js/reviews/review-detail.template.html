@@ -1,0 +1,39 @@
+<div class="wrap" itemscope itemtype="http://schema.org/review">
+
+    <h1>{{ $ctrl.review.title }}</h1>
+
+    <ul class="review-thumbs">
+    	<li ng-repeat="img in $ctrl.review.images">
+        	<img ng-src="img/restos/{{img}}" ng-click="$ctrl.setImage(img)" />
+    	</li>
+	</ul>
+
+	<img ng-src="img/restos/{{$ctrl.mainImageUrl}}" class="review-detail-image" />
+
+    <p>{{ $ctrl.review.description }}</p>
+
+    <h3>Reviews</h3>
+
+<div class="wrap">
+  <span>
+    Search: <input ng-model=" $ctrl.query " />
+  </span>
+
+  <span>
+    Sort by:
+    <select ng-model="$ctrl.orderProp">
+    <option value="author">Review Author</option>
+    <option value="-rating">Rating</option>
+    <option value="-date">Newest</option>
+  </select>
+  </span>
+</div>
+
+    <ul class="reviews">
+        <li ng-repeat="reviews in $ctrl.review.reviews  | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+            {{ reviews.rating }} <br/>
+            {{reviews.date + " - " + reviews.description  + " - " + reviews.author}}
+        </li>
+    </ul>
+
+</div>
